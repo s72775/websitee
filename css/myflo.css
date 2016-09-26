@@ -1,0 +1,59 @@
+/*Myflo CSS Document */
+.w3-bottombar-blue{border-bottom:6px solid #09F!important}
+.mf-background-1{
+	margin-top:10px;
+	margin-bottom:10px;
+	background: url(../Images/website-background-1.jpg)no-repeat;
+	}
+#impressum {
+	margin: 200px;
+}
+
+#showOnSmall{
+	margin-top:43px;
+}
+
+#showSmallBlack{
+	margin-top:172px;
+}
+	
+.mf-navigation{
+	opacity: 0.95;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+	background-image: url("../Images/parallax-bg_flori.jpg");
+    min-height: 100vh;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("../Images/parallax-bg_amerika.jpg");
+    min-height: 500px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("img_parallax3.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and mobiles */
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
